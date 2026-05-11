@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6345801433785567167}
   - component: {fileID: 1506619814176790746}
   - component: {fileID: 5573940046624498459}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pin
   m_TagString: Pin
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
+  m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
@@ -123,9 +123,9 @@ Rigidbody:
   m_GameObject: {fileID: 158295716971866164}
   serializedVersion: 5
   m_Mass: 1.5
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_LinearDamping: 0.05
+  m_AngularDamping: 3
+  m_CenterOfMass: {x: 0, y: -0.35, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
   m_IncludeLayers:
@@ -134,7 +134,7 @@ Rigidbody:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_ImplicitCom: 1
+  m_ImplicitCom: 0
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\Paul\\\\Documents\\\\Projects\\\\BowlingGame\\\\Assets\" -Recurse -File | Where-Object { $_.Extension -match '\\\\.\\(cs|prefab\\)$' } | Select-Object FullName | Sort-Object FullName)",
+      "Bash(Remove-Item \"c:\\\\Users\\\\Paul\\\\Documents\\\\Projects\\\\BowlingGame\\\\Assets\\\\Scripts\\\\BowlingGameManager.cs\" -Force)",
+      "Bash(Remove-Item \"c:\\\\Users\\\\Paul\\\\Documents\\\\Projects\\\\BowlingGame\\\\Assets\\\\Scripts\\\\GameManager.cs\" -Force)",
+      "Bash(Remove-Item \"c:\\\\Users\\\\Paul\\\\Documents\\\\Projects\\\\BowlingGame\\\\Assets\\\\Scripts\\\\BallScript.cs\" -Force)",
+      "Bash(Remove-Item \"c:\\\\Users\\\\Paul\\\\Documents\\\\Projects\\\\BowlingGame\\\\Assets\\\\Scripts\\\\PinManager.cs\" -Force)",
+      "Bash(Remove-Item \"c:\\\\Users\\\\Paul\\\\Documents\\\\Projects\\\\BowlingGame\\\\Assets\\\\Scripts\\\\CameraRig.cs\" -Force)",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\Paul\\\\Documents\\\\Projects\\\\BowlingGame\\\\Assets\\\\Editor\")"
+    ]
+  }
+}

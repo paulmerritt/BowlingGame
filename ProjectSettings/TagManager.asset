@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Pin
   - Ball
+  - PowerUp
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Pin
   - Water
   - UI
   - Lane
@@ -18,7 +19,7 @@ TagManager:
   - Ball
   - ItemBox
   - Walls
-  - 
+  - PowerUp
   - 
   - 
   - 
